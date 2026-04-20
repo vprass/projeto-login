@@ -23,3 +23,18 @@ verde: #326877
 html, body {
     background-color: var(--cor-fundo);
 }
+
+main {
+
+}
+
+section#login {
+    background-color: var(--cor-fundo2);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.58);
+    width: 400px;
+    border-radius: 20px;
+}
+
+div#imagem {
+    background-image: url(../imagens/textura.jpg);
+}
