@@ -80,13 +80,6 @@ label, input{
     height: 35px;
 }
 
-div.entrada > input {
-    width: 290px;
-    
-    margin: 2px;
-    border-radius: 10px;
-}
-
 div.entrada {
     background-color: var(--cor-fundo);
     width: 330px;
@@ -94,6 +87,32 @@ div.entrada {
     border-radius: 10px;
 }
 
-div.botoes > input {
+div.entrada > input {
+    width: 290px;
+    height: 40px;
+    margin: 2px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+div.entrada > input:focus {
+    background-color: var(--cor-fundo2);
+}
+
+div.entrada > input {
+    background-color: #51acc5;
+}
+
+input.botoes {
     width: 330px;
+    height: 45px;
+    margin: 2px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.44);
+}
+
+input#entrar {
+    background-color: #51acc5;
+    border: none;
 }
