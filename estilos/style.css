@@ -113,6 +113,11 @@ input.botoes {
 }
 
 input#entrar {
+    color: white;
     background-color: #51acc5;
     border: none;
+}
+
+input#entrar:hover {
+    background-color: #377788;
 }
