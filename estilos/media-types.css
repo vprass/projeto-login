@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+  html, body {
+    background: #000000;
+    background: linear-gradient(180deg,rgba(0, 0, 0, 1) 35%, rgba(81, 172, 197, 0.93) 75%, rgba(43, 150, 204, 0.85) 100%);
+  }
+
+  section#login {
+    width: 700px;
+}
+
+}
+
+@media screen and (min-width: 1200px){
+    
+}
