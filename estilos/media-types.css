@@ -1,51 +1,45 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px){
 
-    html, body {
-    background-color: #000000;
-    background: linear-gradient(180deg,rgba(0, 0, 0, 1) 35%, rgba(81, 172, 197, 0.93) 75%, rgba(43, 150, 204, 0.85) 100%);
-  }
+    body {
+        background: linear-gradient(180deg,rgba(0, 0, 0, 1) 35%, rgba(81, 172, 197, 0.93) 75%, rgba(43, 150, 204, 0.85) 100%);
+    }
 
-  section#login {
-    display: inline-flex;
-    width: 700px;
-}
-
-div#imagem {
-    width: 410px;
-    height: 330px;
-}
-
-div.entrada {
-    width: 470px;
-    
-}
-
-div.entrada > input {
-    width: 437px;
-    
-}
-
-input.botoes {
-    width: 470px;
-}
-
-}
-
-@media screen and (min-width: 1200px){
-    
     section#login {
-        width: 1000px;
-        display: flex;
-        flex-direction: row-reverse;
+        width: 80vw;
+    }
+
+    div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    div.entrada {
+        float: right;
+        width: 70%;
+        
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background: linear-gradient(180deg,rgba(0, 0, 0, 1) 35%, rgba(81, 172, 197, 0.93) 75%, rgba(43, 150, 204, 0.85) 100%);
     }
     
-    div#imagem {  
-        width: 500px; 
+    section#login {
+        width: 950px;
+    }
+
+    div#imagem {
+        float: left;
+        width: 50%;
+        height:100%
     }
 
     div#formulario {
-        width: 500px;
+        float: right;
+        width: 50%;
     }
 }
